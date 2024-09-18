@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/agrom2white.svg" type="agrom2white.svg">
+    <title>AgroM2</title>
+  </head>
+
+  <header data-ativo="0">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="img/agrom2.svg" alt="Logo" width="150" />
+      </a>
+    </div>
+    <nav>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="#">Loja</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre</a>
+      </div>
+    </nav>
+    <div class="buttons-container">
+      <img src="img/bars-solid.svg" alt="Abrir" class="open" width="24" />
+      <img src="img/xmark-solid.svg" alt="Fechar" class="close" width="22" />
+    </div>
+  </header>
+
+  <body>
+    <div class="container-carroussel">
+      <div id="carousel-wrapper">
+        <div id="menu">
+          <div id="current-option">
+            <span
+              id="current-option-text1"
+              data-previous-text=""
+              data-next-text=""
+            ></span>
+            <span
+              id="current-option-text2"
+              data-previous-text=""
+              data-next-text=""
+            ></span>
+          </div>
+          <button id="previous-option"></button>
+          <button id="next-option"></button>
+        </div>
+        <div id="image"></div>
+      </div>
+    </div>
+    <section>
+      <h1>Melhore seu desempenho em:</h1>
+      <span class="linha"></span>
+    </section>
+      <main>
+        <div class="box-card">
+          <div class="card">
+            <img src="img/planejamento.svg" class="planejamento" alt="exemplo" >
+            <h2>Planejamento</h2>
+          </div>
+          <div class="card">
+            <img src="img/agroexemplo.png" class="plantio" alt="exemplo" >
+            <h2>Plantio</h2>
+          </div>
+          <div class="card">
+            <img src="img/planejamento.svg" class="monitoramento" alt="exemplo">
+            <h2>Monitaramento</h2>
+          </div>
+          <div class="card">
+            <img src="img/agroexemplo.png" class="colheita" alt="exemplo">
+            <h2>Colheita</h2>
+          </div>
+        </div>
+      </main>
+    <script src="js/menu.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  <footer>
+    <div class="logo-footer">
+      <img src="img/agrom2white.svg" alt="Logo da empresa">
+    </div>
+    <div class="dados-footer">
+    <div class="Suporte">
+      <h2>Suporte</h2>
+      <p><a href="#">Política de privacidade</a></p>
+      <br>
+      <p><a href="#">Termos & condições</a></p>
+    </div>
+
+    <div class="contato">
+      <h2>Contato</h2>
+      <p>Telefone: +55 65 4042-0507</p>
+      <br>
+      <p>Email: ighor@agrom2.com.br</p>
+    </div>
+  </div>
+      <div class="icons">
+        <a href="#"><img src="img/zap-icon.svg" alt="icone do whatsapp"></a>
+        <a href="#"><img src="img/instagram-icon.svg" alt="icone do instagram"></a>
+        <a href="#"><img src="img/youtube-icon.svg" alt="icone do youtube"></a>
+        <a href="#"><img src="img/linkedin-icon.svg" alt="icone do linkedin"></a>
+      </div>
+  </footer>
+</html>

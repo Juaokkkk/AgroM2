@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+    font-family:  Helvetica, Roboto,  sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: rgb(250, 250, 250);
+    overflow-x: hidden;
+  }
+
+
+  section{
+    width: 100vw;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    font-size: 18pt;
+  }
+
+  .linha{
+    background-color: black;
+    height: 5px;
+    width: 10%;
+    border-radius: 24px;
+  }
+  
+
+  main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;  
+  }
+
+  .box-card{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .card{
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 20%;
+    height: 70%;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+  }
+
+  .card .planejamento{
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  .card .colheita{
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  .card .plantio{
+    width: 90%;
+    border-radius: 12px;
+  }
+  .card .monitoramento{
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  footer{
+    background-color: black;
+    height: 35vh;
+    color: white;
+  }
+
+  .dados-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .dados-footer a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .dados-footer h2{
+    color: rgb(255, 235, 17);
+    font-size: 24pt;
+    margin-bottom: 10%;
+  }
+
+  .logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20%;
+    margin-bottom: 2%;
+  }
+
+  .logo-footer img{
+    margin-top: 2%;
+  }
+ 
+
+  article{
+    width: 40vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .icons{
+  
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 30px;
+
+    
+  }
+
+  .icons a{
+    width: 2%;
+    
+  }
