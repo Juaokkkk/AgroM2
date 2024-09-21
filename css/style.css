@@ -143,7 +143,6 @@ article{
   gap: 20px;
   margin-right: 2%;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .descricao h1{
@@ -179,3 +178,15 @@ article{
     width: 2%;
     
   }
+
+  @media (max-width: 1366px){  
+    
+    .descricao{
+      gap: 5px;
+    }
+    .descricao p{
+      font-size: 18pt;
+      
+    }
+  }
+
