@@ -10,7 +10,7 @@ header {
     position: relative;
     z-index: 200;
     background-color: rgb(255, 235, 17);
-    padding: 1rem 3vw;
+    padding: 1.2rem 3vw;
     border-bottom: 1px solid rgba(75, 75, 75, 0.2);
   }
   
@@ -19,7 +19,7 @@ header {
     z-index: 201;
     display: flex;
     font-size: 19px;
-    gap: 19px;
+    gap: 25px;
     top: 50%;
     right: 3vw;
     transform: translate(0, -50%);
