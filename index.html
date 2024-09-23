@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/agrom2white.svg" type="agrom2white.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>AgroM2</title>
   </head>
 
@@ -30,7 +31,18 @@
     </div>
   </header>
 
+
   <body>
+    <swiper-container class="mySwiper" pagination="true" space-between="30"
+    centered-slides="true" autoplay-delay="1500" autoplay-disable-on-interaction="true">
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+  </swiper-container>
+
+
     <div class="container-carroussel">
       <div id="carousel-wrapper">
         <div id="menu">
@@ -86,7 +98,6 @@
       </main>
     <script src="js/menu.js"></script>
     <script src="js/script.js"></script>
-  </body>
   <footer>
     <div class="logo-footer">
       <img src="img/agrom2white.svg" alt="Logo da empresa">
@@ -113,4 +124,8 @@
         <a href="#"><img src="img/linkedin-icon.svg" alt="icone do linkedin"></a>
       </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
 </html>

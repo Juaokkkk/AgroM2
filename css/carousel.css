@@ -296,3 +296,45 @@
     opacity: 1;
   }
 }
+
+
+@media (min-width: 904px){
+  .mySwiper{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 904px){
+
+  .container-carroussel {
+    display: none;
+  }
+
+  swiper-container {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+

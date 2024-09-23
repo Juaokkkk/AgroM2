@@ -125,7 +125,7 @@
   }
  
 article{
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(240, 240, 240);
   height: 65vh; 
   width: 100vw;
   margin-top: 8%;
@@ -184,9 +184,42 @@ article{
     .descricao{
       gap: 5px;
     }
+
     .descricao p{
       font-size: 18pt;
       
     }
+  }
+
+
+
+  @media (max-width: 768px){
+
+    article{
+      width: 100vw;
+      height: 110vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .img-descricao img{
+      width: 90%;
+    }
+
+    .img-descricao {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .descricao{
+      margin-top: 10%;
+      display: flex;  
+      width: 90vw;
+      text-align: center;
+    }
+
   }
 
