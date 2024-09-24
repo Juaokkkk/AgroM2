@@ -238,6 +238,15 @@ footer .Suporte,.Contato{
     margin-top: 115px;
    height: 8vh;
   }
+
+  .card{
+    height: 65% !important;
+  
+  }
+
+  .box-card-1,.box-card-2{
+    height: 40vh !important;
+  }
 }
 
 @media (max-width: 525px){  
