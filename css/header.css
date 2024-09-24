@@ -84,7 +84,7 @@ header {
     .links {
         z-index: 199;
         left: 0;
-        top: -200%;
+        top: -225%;
         justify-content: center;
         align-items: center;
         flex-direction: column;

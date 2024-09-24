@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/agrom2white.svg" type="agrom2white.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>AgroM2</title>
   </head>
 
@@ -30,7 +31,18 @@
     </div>
   </header>
 
+
   <body>
+    <swiper-container class="mySwiper" space-between="30"
+    centered-slides="true" autoplay-delay="1800" autoplay-disable-on-interaction="true">
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="img/soja.jpeg" alt=""></swiper-slide>
+  </swiper-container>
+
+
     <div class="container-carroussel">
       <div id="carousel-wrapper">
         <div id="menu">
@@ -65,7 +77,7 @@
       <span class="linha"></span>
     </section>
       <main>
-        <div class="box-card">
+        <div class="box-card-1">
           <div class="card">
             <img src="img/planejamento.svg" class="planejamento" alt="exemplo" >
             <h2>Planejamento</h2>
@@ -74,9 +86,11 @@
             <img src="img/agroexemplo.png" class="plantio" alt="exemplo" >
             <h2>Plantio</h2>
           </div>
+        </div>
+          <div class="box-card-2">
           <div class="card">
             <img src="img/planejamento.svg" class="monitoramento" alt="exemplo">
-            <h2>Monitaramento</h2>
+            <h2>Monitoramento</h2>
           </div>
           <div class="card">
             <img src="img/agroexemplo.png" class="colheita" alt="exemplo">
@@ -86,7 +100,6 @@
       </main>
     <script src="js/menu.js"></script>
     <script src="js/script.js"></script>
-  </body>
   <footer>
     <div class="logo-footer">
       <img src="img/agrom2white.svg" alt="Logo da empresa">
@@ -99,7 +112,7 @@
       <p><a href="#">Termos & condições</a></p>
     </div>
 
-    <div class="contato">
+    <div class="Contato">
       <h2>Contato</h2>
       <p>Telefone: +55 65 4042-0507</p>
       <br>
@@ -113,4 +126,8 @@
         <a href="#"><img src="img/linkedin-icon.svg" alt="icone do linkedin"></a>
       </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
 </html>
