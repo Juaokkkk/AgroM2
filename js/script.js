@@ -1,7 +1,7 @@
 const text1_options = [
     "Do Hectare ao Metro Quadrado",
-    "Inteligência Artificial e Ciência de dados",
     "Desenvolvido para produção inteligente de commodities",
+    "Inteligência Artificial e Ciência de dados",
     "Reduzindo custos e aumentando a eficiência"
   ];
   const text2_options = [
@@ -12,10 +12,10 @@ const text1_options = [
   ];
   const color_options = ["#FFFF00", "#FFD700", "#ffff2b", "#eefb54"];   /*cores do do background que muda*/
   const image_options = [
-    "https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80",
-    "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1506073828772-2f85239b6d2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
-    "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+    "img/agro-tech-2.jpg",
+    "img/agro.jpg",
+    "img/agro-tech.png",
+    "img/agro-2.jpg"
   ];
   var i = 0;
   const currentOptionText1 = document.getElementById("current-option-text1");

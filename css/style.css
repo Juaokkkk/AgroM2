@@ -2,18 +2,17 @@
   box-sizing: border-box;
   outline: none;
   user-select: none;
-  font-family:  Helvetica, Roboto,  sans-serif;
+  font-family: Helvetica, Roboto, sans-serif;
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
   background-color: rgb(250, 250, 250);
   overflow-x: hidden;
 }
 
-
-section{
+section {
   width: 100vw;
   height: 26vh;
   display: flex;
@@ -24,23 +23,21 @@ section{
   font-size: 18pt;
 }
 
-.linha{
+.linha {
   background-color: black;
   height: 5px;
   width: 180px;
   border-radius: 24px;
 }
 
-
-main{
+main {
   width: 100vw;
   height: 80vh;
   display: flex;
-  justify-content: center;  
-  
+  justify-content: center;
 }
 
-.box-card-1{
+.box-card-1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,7 +46,7 @@ main{
   height: 60vh;
 }
 
-.box-card-2{
+.box-card-2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,8 +55,8 @@ main{
   height: 60vh;
 }
 
-.card{
-  background-color:rgb(245, 245, 245);
+.card {
+  background-color: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,38 +68,39 @@ main{
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.card:hover{
+
+.card:hover {
   transform: scale(1.05);
   transition: ease-in-out 100ms;
   cursor: pointer;
 }
 
-.card .planejamento{
+.card .planejamento {
   width: 90%;
   border-radius: 12px;
 }
 
-.card .colheita{
+.card .colheita {
   width: 90%;
   border-radius: 12px;
 }
 
-.card .plantio{
+.card .plantio {
   width: 90%;
   border-radius: 12px;
 }
-.card .monitoramento{
+.card .monitoramento {
   width: 90%;
   border-radius: 12px;
 }
 
-footer{
+footer {
   background-color: black;
   height: 35vh;
   color: white;
 }
 
-.dados-footer{
+.dados-footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -116,16 +114,15 @@ footer{
 
 .dados-footer p {
   font-size: 14pt;
-  
 }
 
-.dados-footer h2{
+.dados-footer h2 {
   color: rgb(255, 235, 17);
   font-size: 24pt;
   margin-bottom: 3%;
 }
 
-.logo-footer{
+.logo-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,175 +131,169 @@ footer{
   margin-bottom: 2%;
 }
 
-.logo-footer img{
+.logo-footer img {
   margin-top: 2%;
 }
 
-article{
-background-color: rgb(240, 240, 240);
-height: 85vh; 
-width: 100vw;
-margin-top: 8%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-
+article {
+  background-color: rgb(240, 240, 240);
+  height: 85vh;
+  width: 100vw;
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.descricao{
-display: flex;
-align-items: center;
-justify-content: start;
-height: 90%;
-width: 50%;
-gap: 20px;
-margin-right: 2%;
-margin-top: 10%;
-flex-direction: column;
+.descricao {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 90%;
+  width: 50%;
+  gap: 20px;
+  margin-right: 2%;
+  margin-top: 10%;
+  flex-direction: column;
 }
 
-.descricao h1{
-font-size: 30pt;
+.descricao h1 {
+  font-size: 30pt;
 }
-.descricao p{
-font-size: 24pt;
-}
-
-.img-descricao{
-width: 50%;
+.descricao p {
+  font-size: 24pt;
 }
 
-.img-descricao img{
-width: 90%;
-border-radius: 12px;
-margin-left: 2%;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+.img-descricao {
+  margin-top: 2%;
+  width: 50%;
 }
 
-footer .dados-footer{
+.img-descricao img {
+  width: 90%;
+  border-radius: 12px;
+  margin-left: 2%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+footer .dados-footer {
   height: 20vh;
   width: 100%;
   align-items: center;
   justify-content: space-around;
 }
-footer .Suporte,.Contato{
+footer .Suporte,
+.Contato {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
-.icons{
+.icons {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
   gap: 60px;
-
-  
 }
 
-.icons a{
+.icons a {
   width: 40px;
-  
 }
 
-@media (max-width: 360px){  
-  footer{
+@media (max-width: 360px) {
+  footer {
     height: 60vh !important;
   }
 
-  .icons{
+  .icons {
     margin-top: 170px !important;
   }
 }
 
-@media (max-width: 430px){  
-  .card h2{
+@media (max-width: 430px) {
+  .card h2 {
     font-size: 15pt !important;
   }
-  footer{
+  footer {
     height: 50vh;
     display: flex;
     flex-direction: column;
   }
-  .dados-footer{
+  .dados-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
-  .icons{
+  .icons {
     margin-top: 115px;
-   height: 8vh;
+    height: 8vh;
   }
 
-  .card{
+  .card {
     height: 65% !important;
-  
   }
 
-  .box-card-1,.box-card-2{
+  .box-card-1,
+  .box-card-2 {
     height: 40vh !important;
   }
 }
 
-@media (max-width: 525px){  
-
-  section h1{
+@media (max-width: 525px) {
+  section h1 {
     text-align: center;
     font-size: 25pt;
   }
-  
 
-  section{
+  section {
     display: flex;
     align-items: center;
     justify-content: end;
     height: 20vh;
   }
 
-  article .descricao p{
+  article .descricao p {
     font-size: 16pt !important;
   }
 
-    .card h2{
-      font-size: 150%;
-    }
+  .card h2 {
+    font-size: 150%;
+  }
 
-    .card{
-      height: 85% !important;
-      width: 45% !important;
-    }
+  .card {
+    height: 85% !important;
+    width: 45% !important;
+  }
 
-    .box-card-1,.box-card-2{
-      height: 30vh !important;
-      margin-top: 10%;
-    }
+  .box-card-1,
+  .box-card-2 {
+    height: 30vh !important;
+    margin-top: 10%;
+  }
 
-    .icons a{
-      width: 30px !important;
-    }
+  .icons a {
+    width: 30px !important;
+  }
 }
 
-@media (max-width: 768px){
-
-
-  .img-descricao img{
+@media (max-width: 768px) {
+  .img-descricao img {
     width: 90%;
   }
 
-  article{
+  article {
     display: flex;
     flex-direction: column;
     height: auto;
   }
 
-  article .descricao p{
+  article .descricao p {
     font-size: 18pt;
     margin-bottom: 2%;
   }
@@ -315,56 +306,55 @@ footer .Suporte,.Contato{
     justify-content: center;
   }
 
-  .descricao{
+  .descricao {
     margin-top: 10%;
-    display: flex;  
+    display: flex;
     width: 90vw;
     text-align: center;
   }
 
- main{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
- }
+  main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-  .card{
+  .card {
     width: 30%;
     height: 80%;
   }
-  
 
-  .box-card-1,.box-card-2{
+  .box-card-1,
+  .box-card-2 {
     width: 100vw;
     height: 40vh;
   }
 
-  footer .dados-footer{
+  footer .dados-footer {
     height: 20vh;
     align-items: center;
     justify-content: space-around;
   }
 
-  footer .Suporte,.Contato{
+  footer .Suporte,
+  .Contato {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 
-  .icons{
+  .icons {
     gap: 45px;
   }
 
-  .icons a{
+  .icons a {
     width: 40px;
   }
-
 }
 
-@media (max-width: 1024px){
-  article .descricao p{
+@media (max-width: 1024px) {
+  article .descricao p {
     font-size: 20pt;
   }
 }

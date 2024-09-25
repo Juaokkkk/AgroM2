@@ -76,7 +76,7 @@
         }
 
         &::after {
-        /*  content: attr(data-previous-text); */ /* animação do card aparecendo*/
+          /*  content: attr(data-previous-text); */ /* animação do card aparecendo*/
           position: absolute;
           transform: translate(0%, -380px);
           width: 100%;
@@ -297,17 +297,13 @@
   }
 }
 
-
-@media (min-width: 904px){
-  .mySwiper{
+@media (min-width: 904px) {
+  .mySwiper {
     display: none;
   }
 }
 
-
-
-@media (max-width: 904px){
-
+@media (max-width: 904px) {
   .container-carroussel {
     display: none;
   }
